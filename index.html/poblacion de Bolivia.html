@@ -1,0 +1,115 @@
+<DOCTYPEhtml>
+    <html>
+        <head>
+            <title>poblacion</title>
+        <style>
+                 header{
+                    background-color: rgb(10, 108, 62);
+                    text-align: center;
+                    padding:35px;
+                    color: black;
+                 }
+                 body{
+                    background-color: black;
+                    margin: 0;
+                    padding: 0%;
+                    position: relative;
+                    justify-items: flex-start;
+                 }
+                  .boton-superior-derecha{
+                  position: absolute;
+                  top:10px;
+                  padding: 8px 15px;
+                  background-color: #ff6600;
+                  color:black;
+                  border-radius: 5px;
+                  text-decoration: none;
+                  font-weight: bold;
+                  z-index: 1000;
+                }
+                .boton-superior-derecha button:hover{
+                  background-color: #e65c00;
+                }
+                 nav{
+                    background-color: rgb(122, 15, 15);
+                    padding: 18px;
+                    text-align: center;
+                 }
+                 nav a{
+                    color:rgb(126, 126, 17);
+                    margin:0 10px;
+                    text-decoration:none;
+                 }
+                 footer{
+                    background-color: #004080;
+                    color:white;
+                    text-align: center;
+                    padding:10px;
+                    position: fixed;
+                    bottom:0;
+                    width:100%;
+                 }
+                 .main{
+                    display: grid;
+                    flex-direction: column;
+                    align-items: center;
+                    justify-content: center;
+                 }
+                 .container{
+                    width: 900px;
+                    margin: 40px;
+                    height: 600px;
+                    justify-content: center;
+                 }
+                 .barra{
+                    width: 100%;
+                    background: #ddd;
+                    border-radius: 20px;
+                    overflow: hidden;
+                    height: 25px;
+                    margin-top: 10px;
+                 }
+                 .progreso{
+                    height: 100%;
+                    width: 0;
+                    background: linear-gradient(90deg,#4CAF50,#00C853);
+                    animation: llenar 3s forwards;
+                    border-radius: 20px;
+                 }
+                 @keyframes llenar {
+                    to{width: 85%;}
+                 }
+                 h2{
+                    color: white;
+                    font-size: 60px;
+                 }
+                 p{
+                    color: aqua;
+                    font-size: 45px;
+                 }
+            </style>
+        </head>
+        <body>
+            <button><a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/BOLIVIA.html" class="boton-superior-derecha">INICIO</a></button>
+             <header>
+            <h1><strong>ESTADO PLURINACIONAL DE BOLIVIA</strong></h1>
+            </header>
+             <nav>
+            <a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/HISTORIA.html">HISTORIA</a>
+            <a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/lugares%20turisticos.html">LUGARES TURISTICOS</a>
+            <a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/DEPARTAMENTOS.html">DEPARTAMENTOS</a>
+            <a href="#">POBLACION ACTUAL</a>
+            </nav>
+        <main>
+            <div class="container">
+                <h2>POBLACION DE BOLIVIA</h2>
+                <p><strong>11,365,333</strong></p>
+                <div class="barra">
+                    <div class="progreso">
+                    </div>
+                </div>
+            </div>
+
+        </main>
+        </body>
+    </html>

@@ -1,0 +1,145 @@
+<DOCTYPE html>
+    <html lang="es">
+    <head>
+        <title>destinos</title>
+        <style>
+            header{
+            background-color: #333;
+            color:white;
+            padding:20px;
+            text-align: center;
+            }
+             nav{
+            background-color: #555;
+            padding:10px;
+            text-align: center;
+        }
+        nav a{
+            color:white;
+            margin:0 10px;
+            text-decoration:none;
+        }
+            body{
+                background-color: #f0f4f8;
+                font-family: 'Segoe UI',sans-serif;
+            }
+            .card{
+                background: #fff;
+                border-radius: 16px;
+                box-shadow:0 6px 20px rgba(0,0,0,0.1);
+                overflow: hidden;
+                width: 300px;
+                transition: transform 0.3s;
+                text-align: center;
+            }
+            .card:hover{
+                transform: translateY(-5px);
+            }
+            .card img{
+                width: 100%;
+                height: 200px;
+                object-fit:cover;
+            }
+            .card-content{
+                display: grid;
+                grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+                padding:16px;
+                gap:20px;
+                max-width: 1200px;
+                margin:0 auto;
+               
+            }
+            .card-content p{
+                color:#333;
+                font-size:16px;
+                margin-bottom: 20px;
+            }
+            .card-footer{
+                padding: 0 16px 16px;
+            }
+            .card-footer button{
+                background-color: #007BFF;
+                color:white;
+                border:none;
+                padding:10px 20px;
+                border-radius:8px;
+                cursor:pointer;
+                font-size:14px;
+                transition: background-color 0.3s;
+            }
+            .card-footer button:hover{
+
+                background-color: #0056b3;
+            }
+            .column{
+                width: 30%;
+            }
+            .column-container{
+                display:flex;
+                justify-content: space-around;
+            }
+            .column img{
+                
+            }
+        </style>
+    </head>
+    <body>
+         <header>
+            <h1>Bitacora de viajes</h1>
+        </header>
+        <nav>
+            <a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/BITACORA%20DE%20VIAJES.html#">HOME</a>
+            <a href="#">DESTINOS</a>
+            <a href="file:///C:/Users/Usuario/OneDrive/Documentos/Misitioweb/contacto.html">CONTACTO</a>
+        </nav>
+
+        <h1>DESTINOS</h1>
+
+    <p>PUEDES VISITAR LOS SIGUIENTES DESTINOS...</p>
+
+    <div class="card">
+        <img src="lagolove.jpg"alt="paisaje1">
+        <div class="card-content">
+            <p>THE LAKE OF LOVE</p>
+        </div>
+        <div class="card-footer">
+            <button onclick="alert">VER MAS</button>
+        </div>
+    </div>
+     <div class="card">
+        <img src="CRIST.jpg"alt="paisaje1">
+        <div class="card-content">
+            <p>CRISTO DE LA CONCORDIA</p>
+        </div>
+        <div class="card-footer">
+            <button onclick="alert">VER MAS</button>
+        </div>
+    </div>
+     <div class="card">
+        <img src="SALAR.jpg"alt="paisaje1">
+        <div class="card-content">
+            <p>SALAR DE UYUNI</p>
+        </div>
+        <div class="card-footer">
+            <button onclick="alert">VER MAS</button>
+        </div>
+    </div>
+     <div class="card">
+        <img src="EIFELL.jpg"alt="paisaje1">
+        <div class="card-content">
+            <p>PARIS-TORRE EIFELL</p>
+        </div>
+        <div class="card-footer">
+            <button onclick="alert">VER MAS</button>
+        </div>
+    </div>
+    <div class="card">
+        <img src="grancañon.jpg"alt="paisaje1">
+        <div class="card-content">
+            <p>GRAN CAÑON</p>
+        </div>
+        <div class="card-footer">
+            <button onclick="alert">VER MAS</button>
+        </div>
+    </div>
+    </body>
